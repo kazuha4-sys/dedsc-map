@@ -16,7 +16,7 @@
         }
     ],
     "orientation": "portrait",
-    "display": "fullscreen",
+    "display": "standalone",
     "dir": "auto",
     "lang": "pt-BR",
     "name": "dedsc.exe",
