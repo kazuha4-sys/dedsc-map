@@ -135,15 +135,9 @@
 
 <header>
   <div class="logo">DEDSEC</div>
-  <input id="search" placeholder="buscar..." style="background:black;color:#00ff9c;border:1px solid #00ff9c">
   <div class="points-btn" onclick="toggleMenu()">
     [PONTOS: <span id="count">0</span>]
   </div>
-  <div id="coords">[--, --]</div>
-  <script>
-    document.getElementById("coords").innerText =
-        `[${lat.toFixed(5)}, ${lng.toFixed(5)}]`;
-  </script>
 </header>
 
 <div id="map"></div>
@@ -185,16 +179,6 @@
 
 
   escreverLinha();
-
-  document.getElementById("search").addEventListener("input", function(){
-    let valor = this.value.toLowerCase();
-
-    document.querySelectorAll(".ponto").forEach(p=>{
-      p.style.display = p.innerText.toLowerCase().includes(valor)
-        ? "block"
-        : "none";
-    });
-  });
 
   // ======= TEU JS (INALTERADO) =======
 
