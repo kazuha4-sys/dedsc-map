@@ -135,7 +135,7 @@
 </div>
 
 <header>
-  <div class="logo">DEDSEC</div>
+  <div class="logo">DEDSC MAP</div>
   <div class="points-btn" onclick="toggleMenu()">
     [PONTOS: <span id="count">0</span>]
   </div>
@@ -317,11 +317,14 @@
       location.reload();
     }
   });
+</script>
 
-  // Serviço Worked
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/sw.js");
-  }
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js")
+    .then(() => console.log("SW rodando 😈"))
+    .catch(err => console.log("Erro SW:", err));
+}
 </script>
 
 </body>

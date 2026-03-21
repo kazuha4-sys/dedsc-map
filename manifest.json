@@ -21,7 +21,7 @@
     "lang": "pt-BR",
     "name": "dedsc.exe",
     "short_name": "dedsc.exe",
-    "start_url": "https://dedsc-map.netlify.app/",
+    "start_url": "/",
     "id": "https://dedsc-map.netlify.app/",
     "description": "Um app para meu sistema"
 }
