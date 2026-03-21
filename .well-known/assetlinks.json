@@ -1,8 +1,8 @@
 [{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.dedsc.app",
-    "sha256_cert_fingerprints": ["SUA_HASH_AQUI"]
-  }
-}]
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.dedsc_map.twa",
+        "sha256_cert_fingerprints": ["56:CC:D2:49:6B:87:53:F5:29:A5:C0:F2:D7:FB:19:CC:16:56:CF:9E:18:FD:0A:15:2C:E5:3C:F1:69:2D:F6:21"]
+      }
+    }]
